@@ -24,6 +24,7 @@
     <TargetFrameworkProfile />
     <NuGetPackageImportStamp>186e8939</NuGetPackageImportStamp>
     <ApplicationInsightsResourceId>/subscriptions/f12d732d-4a47-4edc-a11b-d6dc6909ddbe/resourcegroups/Default-ApplicationInsights-CentralUS/providers/microsoft.insights/components/Aurelia-AppInsights</ApplicationInsightsResourceId>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -272,6 +273,7 @@
     <TypeScriptCompile Include="Scripts\typings\jqueryui\jqueryui.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="test\unit\modules.d.ts" />
+    <TypeScriptCompile Include="test\unit\test.spec.ts" />
     <TypeScriptCompile Include="test\unit\testUtils.spec.ts" />
   </ItemGroup>
   <ItemGroup>
@@ -287,7 +289,7 @@
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'">
     <TypeScriptModuleKind>amd</TypeScriptModuleKind>
-    <TypeScriptTarget>ES6</TypeScriptTarget>
+    <TypeScriptTarget>ES5</TypeScriptTarget>
     <TypeScriptSourceRoot>C:\data\ws\nwc\Web.Aurelia\src\Nwc.Web\Views</TypeScriptSourceRoot>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Release'">
