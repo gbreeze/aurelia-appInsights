@@ -17,4 +17,4 @@ define(["require", "exports", "aurelia-router"], function (require, exports, aur
     exports.Welcome = Welcome;
 });
 
-//# sourceMappingURL=../views/child-router.js.map
+//# sourceMappingURL=child-router.js.map

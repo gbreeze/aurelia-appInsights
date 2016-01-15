@@ -4,7 +4,12 @@ define(["require", "exports", "aurelia-framework", "aurelia-logging-console", "r
     // bootstrap Aurelia
     function configure(aurelia) {
         "use strict";
-        aurelia.use.defaultBindingLanguage().defaultResources().router().eventAggregator().plugin("./resources/aurelia-appInsights");
+        aurelia.use
+            .defaultBindingLanguage()
+            .defaultResources()
+            .router()
+            .eventAggregator()
+            .plugin("./resources/aurelia-appInsights");
         // set global ai properties
         var ai = aurelia.container.get(aai.AureliaAppInsights);
         ai.properties = {

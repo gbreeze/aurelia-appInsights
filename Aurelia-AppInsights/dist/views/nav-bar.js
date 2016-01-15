@@ -8,4 +8,4 @@ define(["require", "exports", "aurelia-framework"], function (require, exports, 
     exports.NavBar = NavBar;
 });
 
-//# sourceMappingURL=../views/nav-bar.js.map
+//# sourceMappingURL=nav-bar.js.map

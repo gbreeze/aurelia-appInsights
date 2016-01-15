@@ -101,4 +101,4 @@ define(["require", "exports", "aurelia-framework", "aurelia-event-aggregator"], 
     exports.AureliaAppInsights = AureliaAppInsights;
 });
 
-//# sourceMappingURL=../resources/aurelia-appInsights.js.map
+//# sourceMappingURL=aurelia-appInsights.js.map

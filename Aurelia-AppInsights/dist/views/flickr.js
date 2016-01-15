@@ -21,4 +21,4 @@ define(["require", "exports", "aurelia-http-client"], function (require, exports
     exports.Flickr = Flickr;
 });
 
-//# sourceMappingURL=../views/flickr.js.map
+//# sourceMappingURL=flickr.js.map

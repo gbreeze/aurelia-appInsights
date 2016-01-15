@@ -6,9 +6,7 @@ define(["require", "exports", "aurelia-router", "aurelia-framework"], function (
             this.firstName = "John";
             this.lastName = "Doe";
         }
-        Welcome.inject = function () {
-            return [auf.Parent.of(aur.Router)];
-        };
+        Welcome.inject = function () { return [auf.Parent.of(aur.Router)]; };
         Object.defineProperty(Welcome.prototype, "fullName", {
             get: function () {
                 return this.firstName + " " + this.lastName;
@@ -24,4 +22,4 @@ define(["require", "exports", "aurelia-router", "aurelia-framework"], function (
     exports.Welcome = Welcome;
 });
 
-//# sourceMappingURL=../views/welcome.js.map
+//# sourceMappingURL=welcome.js.map
