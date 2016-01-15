@@ -199,3 +199,4 @@ Aurelia-AppInsights/**/*.js.map
 coverage/
 Aurelia-AppInsights/src/**/*.js
 Aurelia-AppInsights/test/unit/*.spec.js
+Aurelia-AppInsights/dist/**/*.js
