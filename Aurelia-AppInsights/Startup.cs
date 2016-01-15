@@ -7,10 +7,6 @@ public class Startup
 {
 	public void Configuration(IAppBuilder app)
 	{
-		// set the AI key
-		Microsoft.ApplicationInsights.Extensibility.TelemetryConfiguration.Active.InstrumentationKey =
-				ConfigurationManager.AppSettings["AiInstrumentationKey"];
-
 		app.UseNancy();
 		app.UseStageMarker(PipelineStage.MapHandler);
 	}
