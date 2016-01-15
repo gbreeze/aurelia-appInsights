@@ -221,7 +221,6 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <TypeScriptCompile Include="Scripts\typings\appInsights\appInsights.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jasmine\jasmine.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\lib.es6\lib.es6.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\sinon\sinon.d.ts" />

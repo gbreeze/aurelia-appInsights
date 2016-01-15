@@ -8,12 +8,11 @@ auf.LogManager.setLevel(auf.LogManager.levels.debug);
 export function configure(aurelia: auf.Aurelia) {
 	"use strict";
 
-	aurelia.use
-		.defaultBindingLanguage()
-		.defaultResources()
-		.router()
-		.eventAggregator()
-		.plugin("./resources/aurelia-appInsights");
+    aurelia.use
+        .defaultBindingLanguage()
+        .defaultResources()
+        .router()
+        .eventAggregator();
 
 	// start Aurelia
 	aurelia.start().then((a: auf.Aurelia) => a.setRoot("dist/app", document.body));
