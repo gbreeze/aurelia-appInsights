@@ -197,3 +197,5 @@ Aurelia-AppInsights/**/*.js.map
 
 # coverage results
 coverage/
+Aurelia-AppInsights/src/**/*.js
+Aurelia-AppInsights/test/unit/*.spec.js

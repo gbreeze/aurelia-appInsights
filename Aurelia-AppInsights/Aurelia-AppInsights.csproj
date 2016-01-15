@@ -229,6 +229,7 @@
     <Content Include="Content\scripts\webcomponentsjs\bower.json" />
     <Content Include="Content\scripts\webcomponentsjs\package.json" />
     <Content Include="Content\scripts\webcomponentsjs\README.md" />
+    <Content Include="tsconfig.json" />
     <None Include="Views\index.cshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
@@ -308,7 +309,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>0</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost:41726/</IISUrl>
+          <IISUrl>http://localhost:46805/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
