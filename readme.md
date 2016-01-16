@@ -4,7 +4,7 @@
 * ViewModel Bindings (in MVVM)
 * JavaScript/TypeScript
 * Frameworks in use
-* Continuous Integration, Code coverage & Regression testing
+* Code coverage & Regression testing, Continuous Integration
 
 
 
