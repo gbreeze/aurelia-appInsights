@@ -2,8 +2,8 @@
 
 * TDD (Test Driven Development)
 * ViewModel Bindings (in MVVM)
-* JavaScript?
-* Component Usages
+* JavaScript/TypeScript
+* Frameworks in use
 * Continuous Integration, Code coverage & Regression testing
 
 

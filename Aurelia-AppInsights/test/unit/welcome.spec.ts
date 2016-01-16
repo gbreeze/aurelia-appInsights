@@ -1,10 +1,10 @@
-﻿import w = require("views/welcome");
+﻿import vm = require("views/welcome");
 
-describe('The Welcome VM', () => {    
+describe('The Welcome Page', () => {    
 
     it("should return the first and last name", () => {
 
-        let welcome = new w.Welcome();
+        let welcome = new vm.Welcome();
         welcome.firstName = "First Name";
         welcome.lastName = "Last Name";        
 

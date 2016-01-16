@@ -56,7 +56,8 @@ module.exports = function (config) {
         autoWatch: false,
 
         // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
-        browsers: ["Chrome"],
+        //browsers: ["Chrome"],
+        browsers: ["PhantomJS2"],
 
         // Continuous Integration mode
         // if true, Karma captures browsers, runs the tests and exits
