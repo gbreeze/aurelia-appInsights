@@ -225,6 +225,7 @@
     <TypeScriptCompile Include="Scripts\typings\sinon\sinon.jamine.d.ts" />
     <TypeScriptCompile Include="src\app.ts" />
     <TypeScriptCompile Include="src\main.ts" />
+    <TypeScriptCompile Include="src\views\nav-bar.ts" />
     <TypeScriptCompile Include="src\views\test1.ts" />
     <TypeScriptCompile Include="src\views\welcome.ts" />
     <TypeScriptCompile Include="Scripts\typings\aurelia\aurelia.d.ts" />
