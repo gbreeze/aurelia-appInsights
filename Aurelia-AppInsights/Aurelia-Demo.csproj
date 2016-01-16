@@ -192,6 +192,7 @@
     <Content Include="Content\scripts\webcomponentsjs\bower.json" />
     <Content Include="Content\scripts\webcomponentsjs\package.json" />
     <Content Include="Content\scripts\webcomponentsjs\README.md" />
+    <Content Include="test\SpecRunner.html" />
     <Content Include="tsconfig.json" />
     <None Include="Views\index.cshtml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
