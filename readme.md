@@ -7,3 +7,11 @@
 * Continuous Integration, Code coverage & Regression testing
 
 
+
+
+
+
+
+--
+
+[ref 1](http://www.colinsalmcorner.com/post/aurelia-karma-and-more-vs-debugging-goodness)
