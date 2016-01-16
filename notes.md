@@ -30,6 +30,14 @@
 
 debugging?
 
+grids
+http://charlespockert.github.io/aurelia-bs-grid-demo
+http://donthedev.com/aurelia/#datagrid-examples/
+https://github.com/markcell/jquery-tabledit
+http://js-grid.com/demos/
+
+
+http://www.danyow.net/aurelia-breeze-northwind/
 
 
 
