@@ -1,4 +1,4 @@
-﻿import w = require("src/views/welcome");
+﻿import w = require("views/welcome");
 
 describe('The Welcome VM', () => {    
 

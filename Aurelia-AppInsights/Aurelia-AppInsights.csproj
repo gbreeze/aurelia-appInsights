@@ -230,6 +230,7 @@
     <TypeScriptCompile Include="Scripts\typings\aurelia\aurelia.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jqueryui\jqueryui.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
+    <TypeScriptCompile Include="test\unit\modules.d.ts" />
     <TypeScriptCompile Include="test\unit\test.spec.ts" />
     <TypeScriptCompile Include="test\unit\welcome.spec.ts" />
   </ItemGroup>
