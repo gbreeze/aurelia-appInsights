@@ -1,5 +1,13 @@
 <template>
     <section>
     <h2>Test 1</h2>
+
+
+        <ul repeat.for="user of users">
+            <li>
+                user: ${user.login}
+            </li>
+        </ul>
+
     </section>
 </template>
