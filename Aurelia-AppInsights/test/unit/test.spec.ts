@@ -10,8 +10,8 @@ describe('the Users module', () => {
     });
 
     it("test 2", function () {
-        let d = "Hel-lo";
+        let d = "Hello";
 
         expect(d).toBe("Hello");
     });
-});  
+}); 
