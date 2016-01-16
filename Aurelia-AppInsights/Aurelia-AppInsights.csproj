@@ -168,11 +168,10 @@
     <Content Include="Content\styles\styles.css" />
     <Content Include="gulpfile.js" />
     <Content Include="karma.conf.js" />
+    <Content Include="src\views\test1.html" />
     <Content Include="test-main.js" />
     <Content Include="test\sinon-1.9.1.js" />
     <Content Include="src\app.html" />
-    <Content Include="src\views\child-router.html" />
-    <Content Include="src\views\flickr.html" />
     <Content Include="src\views\nav-bar.html" />
     <Content Include="src\views\welcome.html" />
     <Content Include="Content\scripts\core-js\.bower.json" />
@@ -226,14 +225,13 @@
     <TypeScriptCompile Include="Scripts\typings\sinon\sinon.jamine.d.ts" />
     <TypeScriptCompile Include="src\app.ts" />
     <TypeScriptCompile Include="src\main.ts" />
-    <TypeScriptCompile Include="src\views\child-router.ts" />
-    <TypeScriptCompile Include="src\views\flickr.ts" />
-    <TypeScriptCompile Include="src\views\nav-bar.ts" />
+    <TypeScriptCompile Include="src\views\test1.ts" />
     <TypeScriptCompile Include="src\views\welcome.ts" />
     <TypeScriptCompile Include="Scripts\typings\aurelia\aurelia.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jqueryui\jqueryui.d.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
     <TypeScriptCompile Include="test\unit\test.spec.ts" />
+    <TypeScriptCompile Include="test\unit\welcome.spec.ts" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="dist\" />
