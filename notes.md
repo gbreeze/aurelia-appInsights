@@ -19,7 +19,7 @@
 
 4
 
-* Aurelia, Typescript (show subStyrit)
+* Aurelia, Typescript (show generics on test1 vm)
 
 5
 
@@ -27,10 +27,12 @@
 * Regression testing
 * Continuous Integration (show image on website)
 
+### if there is time
 
-debugging?
+debugging
 
 grids
+
 http://charlespockert.github.io/aurelia-bs-grid-demo
 http://donthedev.com/aurelia/#datagrid-examples/
 https://github.com/markcell/jquery-tabledit
