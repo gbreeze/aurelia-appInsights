@@ -33,17 +33,35 @@ debugging
 
 grids
 
-http://charlespockert.github.io/aurelia-bs-grid-demo
-http://donthedev.com/aurelia/#datagrid-examples/
-https://github.com/markcell/jquery-tabledit
-http://js-grid.com/demos/
+<http://charlespockert.github.io/aurelia-bs-grid-demo>
+
+<http://donthedev.com/aurelia/#datagrid-examples/>
+
+<https://github.com/markcell/jquery-tabledit>
+
+<http://js-grid.com/demos/>
+
+<http://www.danyow.net/aurelia-breeze-northwind/>
 
 
-http://www.danyow.net/aurelia-breeze-northwind/
 
 
 
+---
+
+    describe('The Welcome Page', () => {    
+
+        it("should return the first and last name", () => {
+
+            let welcome = new vm.Welcome();
+            welcome.firstName = "Max";
+            welcome.lastName = "Mustermann";        
+
+            expect(welcome.fullName).toBe(`${welcome.firstName} ${welcome.lastName}`);
+        });
+
+    });
 
 
-
-
+---
+     this.users = u.filter((u) => u.login.startsWith('t'));
